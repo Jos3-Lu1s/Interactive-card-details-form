@@ -10,26 +10,33 @@
   <title>Frontend Mentor | Interactive card details form</title>
 </head>
 
-<body>
-
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
-
-  000
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
+<body class="container" style="background-image: url('images/bg-main-desktop.png'); background-repeat: no-repeat;">
+  <div class="row vh-100 d-flex align-items-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg text-light border-0 rounded-5 img-card mx-auto">
+        <img src="images/bg-card-front.png" class="card-img" alt="...">
+        <div class="card-img-overlay pb-4">
+          <div class="h-100 d-flex flex-column justify-content-between">
+            <img src="images/card-logo.svg" class="img-icon-card" alt="">
+            <h5 class="card-title mt-auto">0000 0000 0000 0000</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text mb-0">Jane Appleseed</p>
+              <p class="card-text mb-0">00/00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow-lg text-light border-0 rounded-5 img-card ms-auto mt-4">
+        <img src="images/bg-card-back.png" class="card-img" alt="...">
+        <div class="card-img-overlay h-100 d-flex flex-column justify-content-center">
+          <h5 class="card-title text-end me-4">000</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      
+    </div>
+  </div>
 
   Confirm
 

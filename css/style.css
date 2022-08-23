@@ -1,8 +1,16 @@
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+.img-card{
+    width: 350px;
+}
+
+.img-icon-card{
+    width: 100px;
+}
