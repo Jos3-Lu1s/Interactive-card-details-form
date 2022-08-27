@@ -127,7 +127,6 @@ btnConfirm.addEventListener("click", function () {
     InputValid(Inputs);
 });
 
-
 //Funcion innecesaria
 function InputValid(inputGroup) {
     for (let i = 0; i < inputGroup.length; i++) {
@@ -200,6 +199,10 @@ function InputValid(inputGroup) {
             return 0;
         }
     }
-    alert("Validado");
-    formulario.submit();
+
+    column.innerHTML = "<div class='text-center'> <img src='images/icon-complete.svg' alt=''> <h2 class='text-uppercase mt-4'>Thank you!</h2> <p class='p-succes mt-3'>We've added your card details</p> <input type='button' id='btnSubmit' class='btn btn-color container-fluid mt-4' value='Continue'> </div>";
+
+    btnSubmit.addEventListener("click", function () {
+        location.reload();
+    });
 }

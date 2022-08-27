@@ -26,6 +26,7 @@
 .card-text,
 .form-control,
 label,
+h1,
 .btn {
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -46,6 +47,11 @@ label,
 .form-control::placeholder {
     font-weight: 500;
     color: hsl(270, 3%, 87%);
+}
+
+.p-succes{
+    font-weight: 500;
+    color: hsl(0, 0%, 57%);
 }
 
 label {
